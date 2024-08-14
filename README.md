@@ -1,2 +1,2 @@
 # azure-oai-assistant-app
-Assistant api streamlit application
+ assistant api streamlit app
