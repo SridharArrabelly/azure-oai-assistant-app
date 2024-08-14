@@ -84,7 +84,6 @@ client = AzureOpenAI(
     api_key= os.getenv("AZURE_OPENAI_API_KEY"),
     api_version="2024-05-01-preview"
 )
-
 # assistant = client.beta.assistants.create(
 #     model=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME"), # replace with model deployment name.
 #     instructions="You are an AI Assistant tasked with analyzing support incident data, it's important to note that each row in the provided file represents a single ticket, with the first row detailing the column names. Please ensure you review the data thoroughly and base your analysis on the information presented, avoiding any assumptions or fabricated responses.",
